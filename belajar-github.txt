@@ -1,0 +1,4 @@
+naim mulai belajar cuy, 
+hallo gais
+- golang
+- java script
