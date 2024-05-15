@@ -10,5 +10,5 @@ func AddData(name string, channel chan string) {
 func main() {
   channel := make(chan string)
   AddData("naim", cahnnel)
-  fmt.Println(channel)
+  fmt.Println(channel, "naim")
   }
