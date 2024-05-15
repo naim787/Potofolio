@@ -11,4 +11,5 @@ func main() {
   channel := make(chan string)
   AddData("naim", cahnnel)
   fmt.Println(channel)
+  fmt.Println("tino")
   }
