@@ -4,5 +4,7 @@ import (
   )
 
 func main() {
-  fmt.Println("naim mulai menjadi-jadi")
+  channel := make(chan string)
+  channel <- "naim mulai menjadi masuk arena";
+  fmt.Println(<-channnel)
   }
